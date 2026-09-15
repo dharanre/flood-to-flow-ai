@@ -1,0 +1,24 @@
+{
+  "name": "flood-to-flow-ai",
+  "version": "1.0.0",
+  "description": "Offline Disaster Intelligence for Snapdragon-powered HP AI PCs",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "benchmark": "python benchmarks/run_benchmark.py",
+    "test": "pytest tests/ -v"
+  },
+  "keywords": [
+    "snapdragon",
+    "hp-ai-pc",
+    "qualcomm-npu",
+    "disaster-response",
+    "multimodal-ai",
+    "offline-first",
+    "explainable-ai"
+  ],
+  "author": "Flood-to-Flow AI Lead Engineer",
+  "license": "Apache-2.0"
+}

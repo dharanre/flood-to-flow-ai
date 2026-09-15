@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-09-14T18:26:41Z",
+  "device": "AMD Ryzen 5 7535HS with Radeon Graphics",
+  "architecture": "AMD64",
+  "active_provider": "CPUExecutionProvider",
+  "iterations": 5,
+  "models": {
+    "yolov8n_object_detection": {
+      "model_name": "yolov8n-flood (Qualcomm AI Hub)",
+      "execution_provider": "CPUExecutionProvider",
+      "avg_preprocess_ms": 7.41,
+      "avg_inference_ms": 0.41,
+      "avg_postprocess_ms": 0.02,
+      "avg_total_ms": 7.83
+    },
+    "pidnet_s_segmentation": {
+      "model_name": "pidnet-s-water (Qualcomm AI Hub)",
+      "execution_provider": "CPUExecutionProvider",
+      "avg_preprocess_ms": 10.77,
+      "avg_inference_ms": 0.12,
+      "avg_postprocess_ms": 0.0,
+      "avg_total_ms": 10.89
+    },
+    "whisper_base_speech": {
+      "model_name": "whisper-base-en (Qualcomm AI Hub)",
+      "execution_provider": "CPUExecutionProvider",
+      "avg_preprocess_ms": 0.01,
+      "avg_inference_ms": 0.02,
+      "avg_total_ms": 0.03
+    }
+  },
+  "comparison": {
+    "cpu_measured": true,
+    "npu_measured": false,
+    "npu_status_note": "Not yet benchmarked on physical Snapdragon NPU. (Active run executed on host CPU fallback; deploy on HP Snapdragon PC to record QNN NPU acceleration)."
+  }
+}

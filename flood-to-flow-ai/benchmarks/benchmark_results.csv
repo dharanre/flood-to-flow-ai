@@ -1,0 +1,4 @@
+Model,Provider,Device,Preprocess_ms,Inference_ms,Postprocess_ms,Total_ms
+yolov8n-flood (Qualcomm AI Hub),CPUExecutionProvider,AMD Ryzen 5 7535HS with Radeon Graphics,7.41,0.41,0.02,7.83
+pidnet-s-water (Qualcomm AI Hub),CPUExecutionProvider,AMD Ryzen 5 7535HS with Radeon Graphics,10.77,0.12,0.0,10.89
+whisper-base-en (Qualcomm AI Hub),CPUExecutionProvider,AMD Ryzen 5 7535HS with Radeon Graphics,0.01,0.02,0.0,0.03
